@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+html {
+    font-size: 62.5%;
+  }
+  body{
+    background-color: #f7c273;
+  }
+#con{
+ 
+    width: 100vw;
+    height: 100vh;
+    /* color: rgb(231, 223, 223); */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius:18px;
+    margin-left: 5%;
+}
+  .new{
+   
+    height:26rem;
+    background-color: rgb(14, 84, 105);
+     /* background-image: url("py.jpg") ; */
+     background-repeat: no-repeat;
+     background-size: 35rem 25.5rem;
+     background-position-x: center;
+     /* transform:perspective(800px) rotatex(15deg); */
+     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0008);
+     border-radius:18px;
+     box-shadow: 3px 1px 2px 3px rgba(1, 20, 32, 0.74);
+    }
+ form{
+   font-size: large;
+   margin-top: -10%;
+   border-radius: 23px;
+   /* width:96px; */
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 5px;
+   justify-content:space-between;
+ }  
+ #month{
+   font-size:large;
+   background-color: rgb(6, 126, 16);
+   cursor: pointer;
+   padding:3px;
+   box-shadow: 2px 3px 2px 4px rgba(8, 17, 4, 0.637);
+   color:rgb(2, 27, 51);
+   text-shadow: 1px 1px lightslategray;
+   font-weight: bold;
+   
+ }
+ #year{
+  font-size:large;
+  font-weight: bold;
+  color:rgb(2, 27, 51);
+  background-color: rgb(4, 119, 13);
+  text-shadow: 1px 1px lightslategray;
+  cursor: pointer;
+  padding:3px;
+  box-shadow: 2px 3px 2px 4px rgba(8, 17, 4, 0.637);
+  
+ } 
+ #month:hover{
+  transform:perspective(900px)rotatey(50deg);
+ }
+#year:hover{
+  transform:perspective(900px)rotatey(50deg);
+}
+ 
+  h3{
+    /* color:rgb(23, 9, 102); */
+    color: rgb(168, 8, 8);
+      text-align: right;
+      font-size: xx-large; 
+      text-shadow: .5px 1px rgb(20, 7, 1);
+     font-style: italic; 
+     margin-top: -8%;
+     cursor: pointer;
+  }
+  h3:hover{
+    transform:perspective(900px)rotatex(40deg);
+  }
+  .form-inline{
+      padding-top:56px;
+      display: inline-flex;
+      flex-wrap: wrap;
+      
+  }
+  #previous{
+    width:45px;
+      text-shadow: 1px 1px rgb(237, 226, 245);
+      font-size: xx-large;
+      opacity: 0.9;
+      
+      cursor: pointer;
+      color: black;
+      font-weight:bolder;
+      /* box-shadow: 0 1px 4px 0#460407; */
+      padding-left:12px;
+  }
+  #next{
+      float:right;
+      width:45px;
+      height:45px;
+      font-size: xx-large;
+      opacity: 0.9;
+      text-shadow: 1px 1px rgb(237, 226, 245);
+      color: black;
+      font-weight: bolder;
+      cursor: pointer;
+      /* box-shadow: 0 1px 4px 0#460407; */
+      padding-left:39.9rem;
+     
+  }
+  .card {
+   margin-top:9px;
+   
+    width: 49rem;
+    height: 52rem;
+    
+    /* background-color: #c01487; */
+    background: linear-gradient(115deg,rgb(194, 168, 23),rgb(117, 24, 112));
+    box-shadow: 0 0.5rem 3rem rgba(12, 8, 211, 0.4);
+    box-shadow: 3px 1px 2px 3px rgb(66, 8, 44);
+    border-radius:18px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0008);
+  }
+  table{
+      text-align: center;
+      padding: 6px;
+      
+  }
+  th{
+    
+    color:rgb(243, 140, 192);
+    text-shadow: 2px 1px black;
+    font-weight: bolder;
+    font-size:x-large;
+    padding: 10px;
+    opacity: 1;
+  }
+  tbody{
+    font-style: oblique;  
+    color:rgb(12, 9, 15);
+    text-shadow:0.5px 0.5px rgb(150, 144, 238);
+    font-size: x-large;
+    padding: 10px; 
+  }
+ .bg-info{
+   color:black;
+   font-weight: bolder;
+   text-shadow: 0.9px 0.9px rgb(143, 83, 130);
+     /* border:3px solid rgb(111, 113, 241); */
+     background-color: rgb(7, 125, 161);
+     box-shadow: 0 3px 4px 0 rgba(122, 209, 231, 0.534);
+ }
+ #py:hover{
+   color:rgb(6, 59, 6);
+   border:3px rgb(87, 5, 32) solid;
+   font-size: xx-large;
+   font-weight: bolder;
+   background:linear-gradient(45deg,rgb(221, 215, 129),rgb(204, 192, 255));
+   cursor: pointer;
+   transform:perspective(900px)rotatey(60deg);
+ }
+ .main{
+ 
+  height: 54px;
+  width:399px;
+  border:2px black solid;
+  background: black;
+ text-align:center;
+ font-size:20px;
+ margin-bottom: 5%;
+}
+a{
+text-decoration: none;
+color:rgb(10, 248, 248);
+padding:5px;
+}
+i{
+  color:pink;
+  
+}
+.d1{
+  background: black;
+
+}
